@@ -74,6 +74,64 @@
         }
       }
     },
+    "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj",
+        "projectName": "LibraryServices",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\VisualStudio Projects\\Github\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -100,6 +158,9 @@
             "projectReferences": {
               "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
                 "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj"
+              },
+              "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj"
               }
             }
           }
