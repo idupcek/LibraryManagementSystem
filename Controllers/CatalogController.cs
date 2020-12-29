@@ -8,7 +8,7 @@ namespace Library.Controllers
     public class CatalogController : Controller
     {
         private ILibraryAsset _assets;
-        public CatalogController (ILibraryAsset assets)
+        public CatalogController(ILibraryAsset assets)
         {
             _assets = assets;
         }
@@ -21,10 +21,10 @@ namespace Library.Controllers
                 .Select(result => new AssetIndexListingModel
                 {
                     Id = result.Id,
-                    ImageUrl = result.ImageUrl, 
+                    ImageUrl = result.ImageUrl,
                     AuthorOrDirector = _assets.GetAutorOrDirector(result.Id),
                     DeweyCallNumber = _assets.GetDeweyIndex(result.Id),
-                    Title = result.Title, 
+                    Title = result.Title,
                     Type = _assets.GetType(result.Id)
                 });
 
@@ -35,6 +35,27 @@ namespace Library.Controllers
 
             return View(model);
 
+        }
+
+        public IActionResult Detail(int id)
+        {
+            var asset = _assets.GetById(id);
+
+            var model = new AssetDetailModel
+            {
+                AssetId = asset.Id,
+                Title = asset.Title,
+                Year = asset.Year,
+                Cost = asset.Cost,
+                Status = asset.Status.Name,
+                ImageUrl = asset.ImageUrl,
+                AuthorOrDirector = _assets.GetAutorOrDirector(id),
+                CurrentLocation = _assets.GetCurrentLocation(id).Name,
+                DeweyCallNumber = _assets.GetDeweyIndex(id),
+                ISBN = _assets.GetIsbn(id)
+            };
+
+            return View(model);
         }
     }
 }
