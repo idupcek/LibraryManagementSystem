@@ -81,3 +81,5 @@ D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\LibraryServices.
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
+D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Checkout.cshtml.g.cs
+D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs

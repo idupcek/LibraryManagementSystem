@@ -1,0 +1,26 @@
+﻿@model Library.Models.CheckoutModels.CheckoutModel
+
+<div class="container">
+    <div class="header clearfix detailHeading">
+        <h2 class="text-muted">Checkout Library Item</h2>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <p id="itemTitle">@Model.Title</p>
+                    <img class="detailImage" src="@Model.ImageUrl" />
+                </div>
+            </div>
+            <div class="col-md-9">
+                <form asp-controller="Catalog" asp-action="PlaceCheckout" method="post">
+                    <label asp-for="LibraryCardId">Please insert a Library Card ID.</label>
+                    <input asp-for="LibraryCardId" type="text">
+                    <input asp-for="AssetId" type="hidden" />
+                    <button type="submit" class="btn btn-success btn-lg">Check out</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
