@@ -9,14 +9,10 @@ namespace Library.Controllers
 {
     public class PatronController : Controller
     {
-        private readonly ILibraryAsset _assets;
-        private readonly ICheckout _checkouts;
         private readonly IPatron _patrons;
 
-        public PatronController(ILibraryAsset assets, ICheckout checkouts, IPatron patrons)
+        public PatronController(IPatron patrons)
         {
-            _assets = assets;
-            _checkouts = checkouts;
             _patrons = patrons;
         }
 

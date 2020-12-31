@@ -84,3 +84,5 @@ D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Cata
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Hold.cshtml.g.cs
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Index.cshtml.g.cs
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Patron\Detail.cshtml.g.cs
+D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Index.cshtml.g.cs
+D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Razor\Views\Branch\Detail.cshtml.g.cs
