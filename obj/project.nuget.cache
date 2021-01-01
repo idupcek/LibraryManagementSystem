@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xfpIdct/EB7qyUNHY1obeB4jG9nJxR9dcRUAzDGIeKbcFYoSlOnoBgXctOeTBJ0EG3kjeovwAXk/jWsuEeDQBQ==",
+  "dgSpecHash": "hrBVxXZKm47EWitMaDUDplzFHqHh5M7J1rPhKtViDms+h9DsLnxTd+ZuYnsGqJjE2DSUokY1XZa4AuM2TfMv/Q==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio Projects\\Github\\Library\\Library.csproj",
+  "projectFilePath": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

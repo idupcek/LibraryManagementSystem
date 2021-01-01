@@ -1484,7 +1484,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "LibraryData/1.0.0": {
+      "Library.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1492,23 +1492,23 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10"
         },
         "compile": {
-          "bin/placeholder/LibraryData.dll": {}
+          "bin/placeholder/Library.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LibraryData.dll": {}
+          "bin/placeholder/Library.Data.dll": {}
         }
       },
-      "LibraryServices/1.0.0": {
+      "Library.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "LibraryData": "1.0.0"
+          "Library.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/LibraryServices.dll": {}
+          "bin/placeholder/Library.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LibraryServices.dll": {}
+          "bin/placeholder/Library.Services.dll": {}
         }
       }
     }
@@ -5703,21 +5703,21 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "LibraryData/1.0.0": {
+    "Library.Data/1.0.0": {
       "type": "project",
-      "path": "../LibraryData/LibraryData.csproj",
-      "msbuildProject": "../LibraryData/LibraryData.csproj"
+      "path": "../LibraryData/Library.Data.csproj",
+      "msbuildProject": "../LibraryData/Library.Data.csproj"
     },
-    "LibraryServices/1.0.0": {
+    "Library.Services/1.0.0": {
       "type": "project",
-      "path": "../LibraryServices/LibraryServices.csproj",
-      "msbuildProject": "../LibraryServices/LibraryServices.csproj"
+      "path": "../LibraryServices/Library.Services.csproj",
+      "msbuildProject": "../LibraryServices/Library.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LibraryData >= 1.0.0",
-      "LibraryServices >= 1.0.0",
+      "Library.Data >= 1.0.0",
+      "Library.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10"
@@ -5729,9 +5729,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio Projects\\Github\\Library\\Library.csproj",
-      "projectName": "Library",
-      "projectPath": "D:\\VisualStudio Projects\\Github\\Library\\Library.csproj",
+      "projectUniqueName": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
+      "projectName": "Library.Web",
+      "projectPath": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
       "outputPath": "D:\\VisualStudio Projects\\Github\\Library\\obj\\",
       "projectStyle": "PackageReference",
@@ -5750,11 +5750,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj"
+            "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
             },
-            "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj": {
-              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj"
+            "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj": {
+              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj"
             }
           }
         }

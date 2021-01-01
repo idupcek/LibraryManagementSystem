@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Library.Models.Patron
+namespace Library.Web.Models.Patron
 {
     public class PatronIndexModel
     {

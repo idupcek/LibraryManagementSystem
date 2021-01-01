@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Library.Models.Catalog
+namespace Library.Web.Models.Catalog
 {
     public class AssetIndexModel
     {

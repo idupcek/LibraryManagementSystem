@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace Library.Models.Branch
+namespace Library.Web.Models.Branch
 {
     public class BranchDetailModel
     {
         public int Id { get; set; }
         public string Address { get; set; }
-        public string Name { get; set; }
+        public string BranchName { get; set; }
         public string BranchOpenedDate { get; set; }
         public string Telephone { get; set; }
         public bool IsOpen { get; set; }

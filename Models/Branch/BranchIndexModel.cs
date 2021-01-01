@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Library.Models.Branch
+namespace Library.Web.Models.Branch
 {
     public class BranchIndexModel
     {

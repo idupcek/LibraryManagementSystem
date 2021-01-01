@@ -1,36 +1,35 @@
-﻿using Library.Models.Patron;
-using LibraryData;
-using LibraryData.Models;
+﻿using System.Linq;
+using Library.Data;
+using Library.Web.Models.Patron;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace Library.Controllers
+namespace Library.Web.Controllers
 {
     public class PatronController : Controller
     {
-        private readonly IPatron _patrons;
+        private readonly IPatronService _patronService;
 
-        public PatronController(IPatron patrons)
+        public PatronController(IPatronService patronService)
         {
-            _patrons = patrons;
+            _patronService = patronService;
         }
 
         public IActionResult Index()
         {
-            var allPatrons = _patrons.GetAll();
+            var allPatrons = _patronService.GetAll();
 
-            var patronModels = allPatrons.Select(p => new PatronDetailModel
-            {
-                Id = p.Id,
-                FirstName = p.FirstName,
-                LastName = p.LastName,
-                LibraryCardId = p.LibraryCard.Id,
-                OverdueFees = p.LibraryCard.Fees,
-                HomeLibraryBranch = p.HomeLibraryBranch.Name
-            }).ToList();
+            var patronModels = allPatrons
+                .Select(p => new PatronDetailModel
+                {
+                    Id = p.Id,
+                    LastName = p.LastName ?? "No First Name Provided",
+                    FirstName = p.FirstName ?? "No Last Name Provided",
+                    LibraryCardId = p.LibraryCard?.Id,
+                    OverdueFees = p.LibraryCard?.Fees,
+                    HomeLibrary = p.HomeLibraryBranch?.Name
+                }).ToList();
 
-            var model = new PatronIndexModel()
+            var model = new PatronIndexModel
             {
                 Patrons = patronModels
             };
@@ -38,24 +37,24 @@ namespace Library.Controllers
             return View(model);
         }
 
-        public IActionResult Detail(int patronId)
+        public IActionResult Detail(int id)
         {
-            var patron = _patrons.Get(patronId);
+            var patron = _patronService.Get(id);
 
             var model = new PatronDetailModel
             {
                 Id = patron.Id,
-                LastName = patron.LastName,
-                FirstName = patron.FirstName,
-                Address = patron.Address,
-                HomeLibraryBranch = patron.HomeLibraryBranch.Name,
-                MemberSince = patron.LibraryCard.Created,
-                OverdueFees = patron.LibraryCard.Fees,
-                LibraryCardId = patron.LibraryCard.Id,
-                Telephone = patron.TelephoneNumber,
-                AssetsCheckedOut = _patrons.GetCheckouts(patronId).ToList() ?? new List<Checkout>(),
-                CheckoutHistory = _patrons.GetCheckoutHistory(patronId),
-                Holds = _patrons.GetHolds(patronId) //TODO : remove format from the view and incorporate here
+                LastName = patron.LastName ?? "No Last Name Provided",
+                FirstName = patron.FirstName ?? "No First Name Provided",
+                Address = patron.Address ?? "No Address Provided",
+                HomeLibrary = patron.HomeLibraryBranch?.Name ?? "No Home Library",
+                MemberSince = patron.LibraryCard?.Created,
+                OverdueFees = patron.LibraryCard?.Fees,
+                LibraryCardId = patron.LibraryCard?.Id,
+                Telephone = string.IsNullOrEmpty(patron.Telephone) ? "No Telephone Number Provided" : patron.Telephone,
+                AssetsCheckedOut = _patronService.GetCheckouts(id).ToList(),
+                CheckoutHistory = _patronService.GetCheckoutHistory(id),
+                Holds = _patronService.GetHolds(id)
             };
 
             return View(model);

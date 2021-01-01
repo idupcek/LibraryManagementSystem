@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Library.Models.Catalog
+﻿namespace Library.Web.Models.Catalog
 {
     public class AssetIndexListingModel
     {
@@ -12,7 +7,8 @@ namespace Library.Models.Catalog
         public string Title { get; set; }
         public string AuthorOrDirector { get; set; }
         public string Type { get; set; }
-        public string DeweyCallNumber { get; set; }
-        public string NumberOfCopies { get; set; }
+        public string Dewey { get; set; }
+        public int NumberOfCopies { get; set; }
+        public int CopiesAvailable { get; set; }
     }
 }

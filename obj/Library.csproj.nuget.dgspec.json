@@ -4,12 +4,12 @@
     "D:\\VisualStudio Projects\\Github\\Library\\Library.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
+    "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj",
-        "projectName": "LibraryData",
-        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj",
+        "projectName": "Library.Data",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
         "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\obj\\",
         "projectStyle": "PackageReference",
@@ -74,12 +74,12 @@
         }
       }
     },
-    "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj": {
+    "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj",
-        "projectName": "LibraryServices",
-        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj",
+        "projectName": "Library.Services",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
         "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\obj\\",
         "projectStyle": "PackageReference",
@@ -98,8 +98,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
-                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               }
             }
           }
@@ -156,11 +156,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj": {
-                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\LibraryData.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               },
-              "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj": {
-                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\LibraryServices.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj"
               }
             }
           }

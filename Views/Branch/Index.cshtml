@@ -1,4 +1,4 @@
-﻿@model Library.Models.Branch.BranchIndexModel
+﻿@model Library.Web.Models.Branch.BranchIndexModel
 
 <h3>Branch Index</h3>
 <div id="branchIndex">
@@ -15,7 +15,7 @@
             @foreach (var branch in Model.Branches)
             {
                 <tr>
-                    <td class="strongTd"><a asp-controller="Branch" asp-action="Detail" asp-route-id="@branch.Id">@branch.Name</a></td>
+                    <td class="strongTd"><a asp-controller="Branch" asp-action="Detail" asp-route-id="@branch.Id">@branch.BranchName</a></td>
                     <td>@branch.IsOpen</td>
                     <td>@branch.NumberOfAssets</td>
                     <td>@branch.NumberOfPatrons</td>

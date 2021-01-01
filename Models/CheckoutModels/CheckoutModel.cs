@@ -1,4 +1,4 @@
-﻿namespace Library.Models.CheckoutModels
+﻿namespace Library.Web.Models.CheckoutModels
 {
     public class CheckoutModel
     {

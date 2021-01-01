@@ -1,4 +1,4 @@
-﻿@model Library.Models.Catalog.AssetDetailModel
+﻿@model Library.Web.Models.Catalog.AssetDetailModel
 
 <div class="container">
     <div class="pb-2 mt-4 mb-2 border-bottom clearfix detailHeading">
@@ -46,11 +46,11 @@
             <table>
                 <tr>
                     <td class="itemLabel">ISBN: </td>
-                    <td class="itemValue">@Model.ISBN</td>
+                    <td class="itemValue">@Model.Isbn</td>
                 </tr>
                 <tr>
                     <td class="itemLabel">Call Number: </td>
-                    <td class="itemValue">@Model.DeweyCallNumber</td>
+                    <td class="itemValue">@Model.Dewey</td>
                 </tr>
                 <tr>
                     <td class="itemLabel">Replacement Cost: </td>

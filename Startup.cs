@@ -1,16 +1,11 @@
-using LibraryData;
-using LibraryServices;
+using Library.Data;
+using Library.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -28,12 +23,16 @@ namespace Library
             services.AddControllersWithViews();
 
             services.AddSingleton(Configuration);
-            services.AddScoped<ILibraryAsset, LibraryAssetService>();
-            services.AddScoped<ICheckout, CheckoutService>();
-            services.AddScoped<IPatron, PatronService>();
-            services.AddScoped<ILibraryBranch, LibraryBranchService>();
+            services.AddScoped<ILibraryCardService, LibraryCardService>();
+            services.AddScoped<ILibraryBranchService, LibraryBranchService>();
+            services.AddScoped<IPatronService, PatronService>();
+            services.AddScoped<ICheckoutService, CheckoutService>();
+            services.AddScoped<ILibraryAssetService, LibraryAssetService>();
+            services.AddScoped<IBookService, BookService>();
+            services.AddScoped<IVideoService, VideoService>();
+            services.AddScoped<IStatusService, StatusService>();
 
-            services.AddDbContext<LibraryContext>(options 
+            services.AddDbContext<LibraryDbContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
         }
 
