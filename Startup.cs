@@ -1,5 +1,8 @@
+using AutoMapper;
 using Library.Data;
+using Library.Models.Mapping;
 using Library.Service;
+using Library.Service.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -22,7 +25,7 @@ namespace Library
         {
             services.AddControllersWithViews();
 
-            services.AddSingleton(Configuration);
+            services.AddSingleton(Configuration);  
             services.AddScoped<ILibraryCardService, LibraryCardService>();
             services.AddScoped<ILibraryBranchService, LibraryBranchService>();
             services.AddScoped<IPatronService, PatronService>();
@@ -34,7 +37,10 @@ namespace Library
 
             services.AddDbContext<LibraryDbContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
+
+            services.AddAutoMapper(c => c.AddProfile<EntityMappingProfile>(), typeof(Startup));      
         }
+
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

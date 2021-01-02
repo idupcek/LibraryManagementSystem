@@ -86,3 +86,7 @@ D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Services
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.Views.pdb
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.csproj.CopyComplete
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.genruntimeconfig.cache
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Models.dll
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Models.pdb
