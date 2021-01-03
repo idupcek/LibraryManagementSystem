@@ -138,12 +138,12 @@
         }
       }
     },
-    "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj": {
+    "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj",
-        "projectName": "Library.Services",
-        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj",
+        "projectName": "Library.Service",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
         "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\obj\\",
         "projectStyle": "PackageReference",
@@ -232,8 +232,8 @@
               "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
                 "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               },
-              "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj": {
-                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Services.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj"
               }
             }
           }

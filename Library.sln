@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Web", "Library.Web.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Data", "..\LibraryData\Library.Data.csproj", "{05F56D62-BC4F-4C8A-973B-9911AE750559}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Services", "..\LibraryServices\Library.Services.csproj", "{62E7171D-D738-4079-A169-7C4F22B0EC12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Service", "..\LibraryServices\Library.Service.csproj", "{62E7171D-D738-4079-A169-7C4F22B0EC12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Models", "..\Library.Models\Library.Models.csproj", "{3230F63D-7A69-447A-850E-41BDE7C9753C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Models", "..\Library.Models\Library.Models.csproj", "{3230F63D-7A69-447A-850E-41BDE7C9753C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Tests", "..\Library.Tests\Library.Tests.csproj", "{BC58C3B4-CDB0-4320-89C4-CB28E7A8D133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Tests", "..\Library.Tests\Library.Tests.csproj", "{BC58C3B4-CDB0-4320-89C4-CB28E7A8D133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

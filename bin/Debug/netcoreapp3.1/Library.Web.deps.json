@@ -26,7 +26,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "Library.Data": "1.0.0",
-          "Library.Services": "1.0.0",
+          "Library.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.10",
           "Microsoft.EntityFrameworkCore.Design": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10",
@@ -1445,17 +1445,17 @@
           "Library.Models.dll": {}
         }
       },
-      "Library.Services/1.0.0": {
+      "Library.Service/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
           "Library.Data": "1.0.0",
           "Library.Models": "1.0.0"
         },
         "runtime": {
-          "Library.Services.dll": {}
+          "Library.Service.dll": {}
         },
         "compile": {
-          "Library.Services.dll": {}
+          "Library.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3797,7 +3797,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Library.Services/1.0.0": {
+    "Library.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

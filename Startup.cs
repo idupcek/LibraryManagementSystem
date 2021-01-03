@@ -2,6 +2,7 @@ using AutoMapper;
 using Library.Data;
 using Library.Models.Mapping;
 using Library.Service;
+using Library.Service.Helpers;
 using Library.Service.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -25,7 +26,7 @@ namespace Library
         {
             services.AddControllersWithViews();
 
-            services.AddSingleton(Configuration);  
+            services.AddSingleton(Configuration);
             services.AddScoped<ILibraryCardService, LibraryCardService>();
             services.AddScoped<ILibraryBranchService, LibraryBranchService>();
             services.AddScoped<IPatronService, PatronService>();
@@ -34,6 +35,8 @@ namespace Library
             services.AddScoped<IBookService, BookService>();
             services.AddScoped<IVideoService, VideoService>();
             services.AddScoped<IStatusService, StatusService>();
+           
+            services.AddScoped(typeof(IPaginator<>), typeof(Paginator<>));
 
             services.AddDbContext<LibraryDbContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));

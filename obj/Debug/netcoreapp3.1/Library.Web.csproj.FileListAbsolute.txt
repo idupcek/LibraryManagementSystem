@@ -80,9 +80,7 @@ D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\runtimes\unix\li
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Data.dll
-D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Services.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Data.pdb
-D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Services.pdb
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.Views.pdb
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.csproj.CopyComplete
 D:\VisualStudio Projects\Github\Library\obj\Debug\netcoreapp3.1\Library.Web.genruntimeconfig.cache
@@ -90,3 +88,5 @@ D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Models.dll
 D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Models.pdb
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Service.dll
+D:\VisualStudio Projects\Github\Library\bin\Debug\netcoreapp3.1\Library.Service.pdb
