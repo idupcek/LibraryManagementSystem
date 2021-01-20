@@ -166,6 +166,18 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
         "type": "package",
         "dependencies": {
@@ -1834,6 +1846,30 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.3.1.10.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.10": {
+      "sha512": "Obu7SuykJ8ouGciuxIHwM/FKBi6fJaIZGEkInq2EVtufflOcepm89yMwAgHRVjb+Rrn7MmjgLYfy1Bm1Chxt0A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/3.1.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.tools.3.1.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
@@ -5809,23 +5845,24 @@
       "Library.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ivan\\.nuget\\packages\\": {}
+    "C:\\Users\\ivand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
+      "projectUniqueName": "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj",
       "projectName": "Library.Web",
-      "projectPath": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
-      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio Projects\\Github\\Library\\obj\\",
+      "projectPath": "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj",
+      "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Github\\Library\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5839,11 +5876,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
-              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
+            "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj": {
+              "projectPath": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj"
             },
-            "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj": {
-              "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj"
+            "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj": {
+              "projectPath": "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj"
             }
           }
         }
@@ -5875,6 +5912,12 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.10, )"
           }
         },
         "imports": [
@@ -5895,7 +5938,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
