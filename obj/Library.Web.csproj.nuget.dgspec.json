@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj": {}
+    "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Github\\Library\\Library.Models\\Library.Models.csproj": {
+    "D:\\VisualStudio Projects\\Github\\Library.Models\\Library.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Github\\Library\\Library.Models\\Library.Models.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\Library.Models\\Library.Models.csproj",
         "projectName": "Library.Models",
-        "projectPath": "C:\\Projects\\Github\\Library\\Library.Models\\Library.Models.csproj",
-        "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Github\\Library\\Library.Models\\obj\\",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\Library.Models\\Library.Models.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio Projects\\Github\\Library.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj": {
-                "projectPath": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj": {
+    "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj",
         "projectName": "Library.Data",
-        "projectPath": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj",
-        "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Github\\Library\\LibraryData\\obj\\",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj": {
+    "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj",
         "projectName": "Library.Service",
-        "projectPath": "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj",
-        "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Github\\Library\\LibraryServices\\obj\\",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,11 +162,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\Github\\Library\\Library.Models\\Library.Models.csproj": {
-                "projectPath": "C:\\Projects\\Github\\Library\\Library.Models\\Library.Models.csproj"
+              "D:\\VisualStudio Projects\\Github\\Library.Models\\Library.Models.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\Library.Models\\Library.Models.csproj"
               },
-              "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj": {
-                "projectPath": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               }
             }
           }
@@ -201,21 +201,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj": {
+    "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj",
+        "projectUniqueName": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
         "projectName": "Library.Web",
-        "projectPath": "C:\\Projects\\Github\\Library\\Library\\Library.Web.csproj",
-        "packagesPath": "C:\\Users\\ivand\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Github\\Library\\Library\\obj\\",
+        "projectPath": "D:\\VisualStudio Projects\\Github\\Library\\Library.Web.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "D:\\VisualStudio Projects\\Github\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,11 +229,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj": {
-                "projectPath": "C:\\Projects\\Github\\Library\\LibraryData\\Library.Data.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryData\\Library.Data.csproj"
               },
-              "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj": {
-                "projectPath": "C:\\Projects\\Github\\Library\\LibraryServices\\Library.Service.csproj"
+              "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj": {
+                "projectPath": "D:\\VisualStudio Projects\\Github\\LibraryServices\\Library.Service.csproj"
               }
             }
           }
@@ -265,12 +265,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.10, )"
             }
           },
           "imports": [
@@ -291,7 +285,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
